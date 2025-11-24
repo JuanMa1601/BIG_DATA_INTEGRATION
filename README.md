@@ -1,15 +1,15 @@
-#Word Count Analysis - Big Data Integration
+# Word Count Analysis - Big Data Integration
 
-##Descripción del Proyecto
+## Descripción del Proyecto
 Este proyecto implementa un contador de palabras utilizando Apache Spark como parte de la
 actividad práctica de la materia Big Data Integration de la Universidad Nacional Abierta y a
 Distancia (UNAD).
 
-##Objetivo
+## Objetivo
 Implementar un programa en PySpark que realice el conteo de palabras específicas en un archivo
 de texto, aplicando técnicas de procesamiento distribuido para el análisis de datos masivos.
 
-#Resultados Obtenidos
+## Resultados Obtenidos
 El análisis del archivo Anexo1-Aplication.txt arrojó los siguientes resultados:
 
 Palabra	Conteo
@@ -17,13 +17,13 @@ Recognition	4
 Vision	66
 ** Recognition** (con espacio)	4
 
-##Tecnologías Utilizadas
+## Tecnologías Utilizadas
 - Apache Spark 3.4.0
 - PySpark (Python API for Spark)
 - Hadoop HDFS (para almacenamiento distribuido)
 - Python 3.10
 
-##Estructura del Proyecto
+## Estructura del Proyecto
 
 bigdata-integration-wordcount/
 │
@@ -33,7 +33,7 @@ bigdata-integration-wordcount/
 ├── README.md                    # Este archivo
 └── requirements.txt             # Dependencias del proyecto
 
-##Ejecución del Proyecto
+## Ejecución del Proyecto
 Prerrequisitos
 
 ## Instalar PySpark
@@ -57,31 +57,31 @@ Características del Código
 - Manejo de errores y validación de archivos
 - Configuración optimizada para entorno local
 
-##Metodología
+## Metodología
 - Carga de datos: Lectura del archivo de texto en un RDD
 - Transformación: División y limpieza de palabras
 - Filtrado: Conteo específico de palabras objetivo
 - Agregación: Conteo general de todas las palabras
 - Exportación: Generación de reporte en HTML
 
-##Autor
+## Autor
 Juan Meriño Mercado
 Estudiante de Especialización en Ciencia de Datos y Analítica
 Universidad Nacional Abierta y a Distancia (UNAD)
 
-##Curso
+## Curso
 Big Data Integration - Código 203008077
 Vicerrectoría Académica y de Investigación
 
-##Licencia
+## Licencia
 Este proyecto es parte de los requisitos académicos de la UNAD y se distribuye con fines educativos.
 
-##Enlaces Relacionados
+## Enlaces Relacionados
 Apache Spark Documentation
 PySpark API Reference
 UNAD - Universidad Nacional Abierta y a Distancia
 
-##Contacto
+## Contacto
 Para más información sobre este proyecto, puedes contactar al autor a través de los canales institucionales de la UNAD.
 
 Última actualización: Noviembre 2025
